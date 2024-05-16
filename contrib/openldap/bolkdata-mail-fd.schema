@@ -1,0 +1,15 @@
+##
+## bolkdata-fd.schema - Needed by Fusion Directory for personal information
+##
+
+# Attributes
+attributetype ( 1.3.6.1.4.1.38414.643.1.1 NAME 'fdParentMail'
+  DESC 'FusionDirectory - parent email address for acls'
+  EQUALITY caseIgnoreIA5Match
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.26 )
+
+# Objectclasses
+objectclass (1.3.6.1.4.1.38414.643.2.1 NAME 'fdBolkDataMail' SUP top AUXILIARY
+  DESC 'FusionDirectory - Bolk Mail Tab'
+  MUST ( )
+  MAY ( fdParentMail ))
