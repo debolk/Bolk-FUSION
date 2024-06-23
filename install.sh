@@ -1,9 +1,11 @@
 #!/bin/bash
 
 
-scp -r config/* root@192.168.1.237:/usr/share/fusiondirectory/plugins/config
-scp contrib/openldap/* root@192.168.1.237:/etc/ldap/schema/fusiondirectory/
-scp -r locale/* root@192.168.1.237:/usr/share/fusiondirectory/locale/plugins
-scp -r personal/* root@192.168.1.237:/usr/share/fusiondirectory/plugins/personal
+scp -r admin/* root@10.99.1.102:/usr/share/fusiondirectory/plugins/admin
+scp contrib/openldap/* root@10.99.1.102:/etc/ldap/schema/fusiondirectory/
+scp -r locale/* root@10.99.1.102:/usr/share/fusiondirectory/locale/plugins
+scp -r personal/* root@10.99.1.102:/usr/share/fusiondirectory/plugins/personal
 
-ssh root@192.168.1.237 "fusiondirectory-setup --update-cache; fusiondirectory-insert-schema -i /etc/ldap/schema/fusiondirectory/bolkdata-fd.schema -o \"-H ldap://192.168.1.236 -D 'cn=admin,cn=config' -w openLDAP2023! -x\"; fusiondirectory-insert-schema -i /etc/ldap/schema/fusiondirectory/bolkdata-avg-fd.schema -o \"-H ldap://192.168.1.236 -D 'cn=admin,cn=config' -w openLDAP2023! -x\"; fusiondirectory-insert-schema -i /etc/ldap/schema/fusiondirectory/bolkdata-fd-conf.schema -o \"-H ldap://192.168.1.236 -D 'cn=admin,cn=config' -w openLDAP2023! -x\"; fusiondirectory-insert-schema -i /etc/ldap/schema/fusiondirectory/bolkdata-mail-fd.schema -o \"-H ldap://192.168.1.236 -D 'cn=admin,cn=config' -w openLDAP2023! -x\""
+insert="fusiondirectory-schema-manager --ldapuri ldap://10.99.1.101 --binddn cn=admin,cn=config --bindpwd WOWgeenGOSA2022! --simplebind --insert-schema"
+
+ssh root@10.99.1.102 "fusiondirectory-configuration-manager --update-cache; ${insert} /etc/ldap/schema/fusiondirectory/bolkdata-fd.schema; ${insert} /etc/ldap/schema/fusiondirectory/bolkdata-avg-fd.schema; ${insert} /etc/ldap/schema/fusiondirectory/bolkdata-mail-fd.schema"
