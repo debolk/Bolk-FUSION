@@ -61,6 +61,6 @@ attributetype ( 1.3.6.1.4.1.38414.642.1.10 NAME 'fdMailShare'
 objectclass (1.3.6.1.4.1.38414.642.2.1 NAME 'fdBolkDataAVG' SUP top AUXILIARY
   DESC 'FusionDirectory - User Data AVG Management'
   MUST ( )
-  MAY ( fdAVGAccept $ fdPronounsShare $ fdDoBShare $ fdParentPhoneShare $
+  MAY ( fdAVGAccept $ fdPronounsShare $ fdDoBShare $ fdEmergencyPhoneShare $
 	fdProgrammeShare $ fdInstitutionShare $ fdAddressShare $ fdPhoneShare $
 	fdMailShare ))
