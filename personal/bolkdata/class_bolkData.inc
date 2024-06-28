@@ -70,8 +70,8 @@ class bolkData extends simplePlugin
 		  ),
 		  new SetAttribute(
 			  new PhoneNumberAttribute(
-				_('Parent(s) phone number'), _('Phone number of parent(s)'),
-				'fdParentPhone', FALSE )
+				_('Emergency contact number'), _('Phone number of the member\'s emergency contact'),
+				'fdEmergencyPhone', FALSE )
 		  ),
 		]
 	  ],
@@ -122,8 +122,8 @@ class bolkData extends simplePlugin
 			'fdPhoneShare', TRUE, TRUE
 		  ),
 		  new BooleanAttribute(
-			_('Share parent phone number'), _('Does this member allow to internally share their phone number of parent(s)'),
-			'fdParentPhoneShare', TRUE, FALSE
+			_('Share emergency phone number'), _('Does this member allow to internally share their emergency contact?'),
+			'fdEmergencyPhoneShare', TRUE, FALSE
 		  ),
 		  new BooleanAttribute(
 			_('Share mail address'), _('Does this member allow to internally share their mail address'),

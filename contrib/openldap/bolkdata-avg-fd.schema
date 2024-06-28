@@ -21,7 +21,7 @@ attributetype ( 1.3.6.1.4.1.38414.642.1.4 NAME 'fdDoBShare'
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE )
   
-attributetype ( 1.3.6.1.4.1.38414.642.1.5 NAME 'fdParentPhoneShare'
+attributetype ( 1.3.6.1.4.1.38414.642.1.5 NAME 'fdEmergencyPhoneShare'
   DESC 'FusionDirectory - Tell if the member allows to share phone number of parent(s)'
   EQUALITY booleanMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.7

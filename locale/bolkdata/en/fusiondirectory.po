@@ -83,11 +83,11 @@ msgid "The institution(s) the member attends"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:80
-msgid "Parent(s) phone number"
+msgid "Emergency contact number"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:80
-msgid "Phone number of parent(s)"
+msgid "Phone number of the member's emergency contact"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:86
@@ -173,11 +173,11 @@ msgid "Does this member allow to internally share their phone number"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:137
-msgid "Share parent phone number"
+msgid "Share emergency phone number"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:131
-msgid "Does this member allow to internally share their phone number of parent(s)"
+msgid "Does this member allow to internally share their emergency contact?"
 msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:135

@@ -1,21 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR FusionDirectory Project
 # This file is distributed under the same license as the FusionDirectory package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #
+# SPDX-FileCopyrightText: 2024 michael <alchemi1999@hotmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Miguel (alchemi1999@hotmail.com)\n"
-"Language-Team: English\n"
+"PO-Revision-Date: 2024-06-28 14:13+0200\n"
+"Last-Translator: michael <alchemi1999@hotmail.com>\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #: config/bolkdata/class_bolkdataConfig.inc:26
 msgid "BolkData configuration"
@@ -36,7 +37,8 @@ msgstr "Sta toe dat privé mails gebruikt worden voor wachtwoordherstel"
 
 #: config/bolkdata/class_bolkdataConfig.inc:43
 msgid "Allow users to use their private email address for password recovery"
-msgstr "Sta gebruikers toe om hun privé mailadres te gebruiken voor wachtwoordherstel"
+msgstr ""
+"Sta gebruikers toe om hun privé mailadres te gebruiken voor wachtwoordherstel"
 
 #: personal/bolkdata/class_bolkData.inc:26
 msgid "Bolk member information"
@@ -81,12 +83,12 @@ msgid "The institution(s) the member attends"
 msgstr "De onderwijsinstelling waar deze Bolker studeert"
 
 #: personal/bolkdata/class_bolkData.inc:75
-msgid "Parent(s) phone number"
-msgstr "Telefoonnummer ouder(s)"
+msgid "Emergency contact number"
+msgstr "Telefoonnummer in geval van nood"
 
 #: personal/bolkdata/class_bolkData.inc:75
-msgid "Phone number of parent(s)"
-msgstr "Telefoonnummer van ouder(s)"
+msgid "Phone number of the member's emergency contact"
+msgstr "Telefoonnummer in geval van nood"
 
 #: personal/bolkdata/class_bolkData.inc:81
 msgid "Membership Info"
@@ -171,12 +173,12 @@ msgid "Does this member allow to internally share their phone number"
 msgstr "Staat deze Bolker toe om hun telefoonnummer intern te delen"
 
 #: personal/bolkdata/class_bolkData.inc:131
-msgid "Share parent phone number"
-msgstr "Deel telefoonnummer ouder(s)"
+msgid "Share emergency phone number"
+msgstr "Deel nood telefoonnummer"
 
 #: personal/bolkdata/class_bolkData.inc:131
-msgid "Does this member allow to internally share their phone number of parent(s)"
-msgstr "Staat deze Bolker toe om hun ouders' telefoonnummer intern te delen"
+msgid "Does this member allow to internally share their emergency contact?"
+msgstr "Staat deze Bolker toe om hun nood telefoonnummer intern te delen"
 
 #: personal/bolkdata/class_bolkData.inc:135
 msgid "Share mail address"
@@ -198,7 +200,8 @@ msgid "Share pronouns"
 msgstr "Deel persoonlijke voornaamwoorden"
 
 msgid "Does this member allow to internally share their pronouns"
-msgstr "Staat deze Bolker toe om hun persoonlijke voornaamwoorden intern te delen"
+msgstr ""
+"Staat deze Bolker toe om hun persoonlijke voornaamwoorden intern te delen"
 
 #: personal/bolkdata/class_bolkData.inc:147
 msgid "Share date of birth"
@@ -233,3 +236,4 @@ msgstr "Papa mailadres"
 
 msgid "Parent e-mail address which this e-mail inherits ACL\'s from"
 msgstr "Papa e-mailadres waar dit mailadres de ACL\'s van ontvangt."
+
