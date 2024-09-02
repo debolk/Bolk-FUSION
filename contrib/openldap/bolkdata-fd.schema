@@ -45,6 +45,12 @@ attributetype ( 1.3.6.1.4.1.38414.640.1.8 NAME 'fdInstitution'
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.26
   SUP fdProgramme )
 
+attributetype ( 1.3.6.1.4.1.38414.640.1.9 NAME 'fdForwardMails'
+  DESC    'FusionDirectory - Should the member be forwarded mails'
+  EQUALITY booleanMatch
+  SYNTAX  1.3.6.1.4.1.1466.115.121.1.7
+  SINGLE-VALUE )
+
 attributetype ( 1.3.6.1.4.1.38414.640.1.9 NAME 'fdDead'
   DESC    'FusionDirectory - Is the member dead or alive'
   EQUALITY booleanMatch
@@ -91,5 +97,5 @@ objectclass (1.3.6.1.4.1.38414.640.2.1 NAME 'fdBolkData' SUP top AUXILIARY
   DESC 'FusionDirectory - User personal tab'
   MUST ( )
   MAY ( fdNickName $ fdPhotoVisible $ fdPronouns $ dateOfBirth $ fdEmergencyPhone $
-		fdProgramme $ fdInstitution $ fdDead $ fdDateOfInauguration $ fdDateOfResignationLetter $ 
+		fdProgramme $ fdInstitution $ fdForwardMails $ fdDead $ fdDateOfInauguration $ fdDateOfResignationLetter $
 		fdDateOfResignation $ fdIVA $ fdMemberOf $ fdLabeledURI ))

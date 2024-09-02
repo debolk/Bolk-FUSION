@@ -31,6 +31,12 @@ msgstr "BolkData plugin configuratie"
 msgid "BolkData"
 msgstr "BolkData"
 
+msgid "Forward mails"
+msgstr ""
+
+msgid "Should emails to this member be forwarded to them?"
+msgstr ""
+
 #: config/bolkdata/class_bolkdataConfig.inc:43
 msgid "Allow use of private email for password recovery"
 msgstr "Sta toe dat privé mails gebruikt worden voor wachtwoordherstel"

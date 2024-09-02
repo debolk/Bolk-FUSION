@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Miguel (alchemi1999@hotmail.com)\n"
+"Last-Translator: Melody (bolk@personaltardis.me)\n"
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,12 @@ msgstr ""
 
 #: config/bolkdata/class_bolkdataConfig.inc:27
 msgid "BolkData plugin configuration"
+msgstr ""
+
+msgid "Forward mails"
+msgstr ""
+
+msgid "Should emails to this member be forwarded to them?"
 msgstr ""
 
 #: config/bolkdata/class_bolkdataConfig.inc:40
