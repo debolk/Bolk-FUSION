@@ -51,42 +51,42 @@ attributetype ( 1.3.6.1.4.1.38414.640.1.9 NAME 'fdForwardMails'
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE )
 
-attributetype ( 1.3.6.1.4.1.38414.640.1.9 NAME 'fdDead'
+attributetype ( 1.3.6.1.4.1.38414.640.1.10 NAME 'fdDead'
   DESC    'FusionDirectory - Is the member dead or alive'
   EQUALITY booleanMatch
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE )
 
-attributetype ( 1.3.6.1.4.1.38414.640.1.10 NAME 'fdDateOfInauguration'
+attributetype ( 1.3.6.1.4.1.38414.640.1.11 NAME 'fdDateOfInauguration'
   DESC    'FusionDirectory - Date of inauguration in ISO 8601 format'
   EQUALITY caseIgnoreIA5Match
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.26{10}
   SINGLE-VALUE )
   
-attributetype ( 1.3.6.1.4.1.38414.640.1.11 NAME 'fdDateOfResignationLetter'
+attributetype ( 1.3.6.1.4.1.38414.640.1.12 NAME 'fdDateOfResignationLetter'
   DESC    'FusionDirectory - Date of the membership cancellation letter in ISO 8601 format'
   EQUALITY caseIgnoreIA5Match
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.26{10}
   SINGLE-VALUE )
   
-attributetype ( 1.3.6.1.4.1.38414.640.1.12 NAME 'fdDateOfResignation'
+attributetype ( 1.3.6.1.4.1.38414.640.1.13 NAME 'fdDateOfResignation'
   DESC    'FusionDirectory - Date the membership was cancelled in ISO 8601 format'
   EQUALITY caseIgnoreIA5Match
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.26{10}
   SINGLE-VALUE )
 
-attributetype ( 1.3.6.1.4.1.38414.640.1.13 NAME 'fdIVA'
+attributetype ( 1.3.6.1.4.1.38414.640.1.14 NAME 'fdIVA'
   DESC    'FusionDirectory - Did the member complete the Instruction Responsible Alcohol'
   EQUALITY booleanMatch
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE )
   
-attributetype ( 1.3.6.1.4.1.38414.640.1.14 NAME 'fdMemberOf' 
+attributetype ( 1.3.6.1.4.1.38414.640.1.15 NAME 'fdMemberOf'
  DESC 'Distinguished name of a group of which the object is a member' 
  EQUALITY distinguishedNameMatch 
  SYNTAX 1.3.6.1.4.1.1466.115.121.1.12 )
  
-attributetype ( 1.3.6.1.4.1.38414.640.1.15 NAME 'fdLabeledURI'
+attributetype ( 1.3.6.1.4.1.38414.640.1.16 NAME 'fdLabeledURI'
  DESC 'Subtype of labeledURI'
  EQUALITY caseExactMatch
  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
