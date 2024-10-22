@@ -2,7 +2,6 @@
 # This file is distributed under the same license as the FusionDirectory package.
 #
 #
-# SPDX-FileCopyrightText: 2024 michael <alchemi1999@hotmail.com>
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
@@ -228,14 +227,4 @@ msgstr "Deel onderwijsinstelling"
 #: personal/bolkdata/class_bolkData.inc:155
 msgid "Does this member allow to internally share where they study"
 msgstr "Staat deze Bolker toe om intern te delen waar ze studeren"
-
-#: personal/bolkdata/class_bolkDataMail.inc
-msgid "Bolk mail information"
-msgstr "Bolk mail informatie"
-
-msgid "Parent Mail Address"
-msgstr "Papa mailadres"
-
-msgid "Parent e-mail address which this e-mail inherits ACL\'s from"
-msgstr "Papa e-mailadres waar dit mailadres de ACL\'s van ontvangt."
 
