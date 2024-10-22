@@ -2,13 +2,15 @@
 # This file is distributed under the same license as the FusionDirectory package.
 #
 #
+msgid ""
+msgstr ""
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
 "PO-Revision-Date: 2024-06-28 14:13+0200\n"
 "Last-Translator: michael <alchemi1999@hotmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
-"Language: en\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

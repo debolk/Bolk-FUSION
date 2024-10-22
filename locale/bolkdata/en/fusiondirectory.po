@@ -4,6 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #
+msgid ""
+msgstr ""
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
