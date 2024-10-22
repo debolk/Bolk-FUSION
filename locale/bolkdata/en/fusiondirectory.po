@@ -4,8 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #
-msgid ""
-msgstr ""
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
@@ -230,14 +228,4 @@ msgstr ""
 
 #: personal/bolkdata/class_bolkData.inc:155
 msgid "Does this member allow to internally share where they study"
-msgstr ""
-
-#: personal/bolkdata/class_bolkDataMail.inc
-msgid "Bolk mail information"
-msgstr ""
-
-msgid "Parent Mail Address"
-msgstr ""
-
-msgid "Parent e-mail address which this e-mail inherits ACL\'s from"
 msgstr ""

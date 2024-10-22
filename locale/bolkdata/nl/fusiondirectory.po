@@ -3,8 +3,6 @@
 #
 #
 # SPDX-FileCopyrightText: 2024 michael <alchemi1999@hotmail.com>
-msgid ""
-msgstr ""
 "Project-Id-Version: FusionDirectory VERSION\n"
 "Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
 "POT-Creation-Date: 2022-09-29 03:00+0100\n"
@@ -32,10 +30,10 @@ msgid "BolkData"
 msgstr "BolkData"
 
 msgid "Forward mails"
-msgstr ""
+msgstr "Mails doorsturen"
 
 msgid "Should emails to this member be forwarded to them?"
-msgstr ""
+msgstr "Moeten mails naar dit lid doorgestuurd worden?"
 
 #: config/bolkdata/class_bolkdataConfig.inc:43
 msgid "Allow use of private email for password recovery"
@@ -43,8 +41,7 @@ msgstr "Sta toe dat privé mails gebruikt worden voor wachtwoordherstel"
 
 #: config/bolkdata/class_bolkdataConfig.inc:43
 msgid "Allow users to use their private email address for password recovery"
-msgstr ""
-"Sta gebruikers toe om hun privé mailadres te gebruiken voor wachtwoordherstel"
+msgstr "Sta gebruikers toe om hun privé mailadres te gebruiken voor wachtwoordherstel"
 
 #: personal/bolkdata/class_bolkData.inc:26
 msgid "Bolk member information"
@@ -206,8 +203,7 @@ msgid "Share pronouns"
 msgstr "Deel persoonlijke voornaamwoorden"
 
 msgid "Does this member allow to internally share their pronouns"
-msgstr ""
-"Staat deze Bolker toe om hun persoonlijke voornaamwoorden intern te delen"
+msgstr "Staat deze Bolker toe om hun persoonlijke voornaamwoorden intern te delen"
 
 #: personal/bolkdata/class_bolkData.inc:147
 msgid "Share date of birth"

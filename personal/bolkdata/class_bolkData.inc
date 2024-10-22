@@ -29,7 +29,6 @@ class bolkData extends simplePlugin
       'plObjectType'    => ['user'],
 	  'plIcon'          => 'geticon.php?context=applications&icon=user-info&size=48',
       'plSmallIcon'     => 'geticon.php?context=applications&icon=user-info&size=16',
-      'plPriority'      => 1,
       'plObjectClass'   => ['fdBolkData'],
       'plProvidedAcls'  => parent::generatePlProvidedAcls(static::getAttributesInfo())
     ];
