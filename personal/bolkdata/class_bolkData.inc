@@ -17,23 +17,26 @@
 
 class bolkData extends simplePlugin
 {
-  var $displayHeader  = FALSE;
+  // We set displayHeader to FALSE, because we don't want a header allowing to activate/deactivate this plugin,
+  // we want it activated on all objects
+  var $displayHeader = FALSE;
 
+  // We need this function that returns some information about the plugin
   static function plInfo (): array
   {
     return [
-      'plShortName'     => _('BolkData'),
-      'plDescription'   => _('Bolk member information'),
-      'plFilter'        => '(objectClass=fdBolkData)',
-      'plSelfModify'    => TRUE,
-      'plObjectClass'   => ['fdBolkData'],
-      'plObjectType'    => ['user'],
-	  'plIcon'          => 'geticon.php?context=applications&icon=user-info&size=48',
-      'plSmallIcon'     => 'geticon.php?context=applications&icon=user-info&size=16',
+      'plShortName'       => _('Bolk Data'),
+      'plTitle'           => _('Bolk member info'),
+      'plDescription'     => _('Manage bolk member information'),
+      'plSelfModify'      => TRUE, // Does this plugin have an owner that might be able to edit its entry
+      'plObjectType'      => ['user'],
+      'plObjectClass'     => ['fdBolkData'],
 
-      'plProvidedAcls'  => parent::generatePlProvidedAcls(static::getAttributesInfo())
+      // simplePlugin can generate the ACL list for us
+      'plProvidedAcls'    => parent::generatePlProvidedAcls(self::getAttributesInfo())
     ];
   }
+
 
   static function getAttributesInfo (): array
   {
