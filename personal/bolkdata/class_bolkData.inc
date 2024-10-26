@@ -17,7 +17,7 @@
 
 class bolkData extends simplePlugin
 {
-  var $displayHeader  = FALSE;
+  var $displayHeader  = TRUE;
   var $objectclasses = ["fdBolkData"];
 
   static function plInfo (): array
