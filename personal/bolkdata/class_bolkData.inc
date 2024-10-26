@@ -30,7 +30,6 @@ class bolkData extends simplePlugin
       'plObjectType'    => ['user'],
 	  'plIcon'          => 'geticon.php?context=applications&icon=user-info&size=48',
       'plSmallIcon'     => 'geticon.php?context=applications&icon=user-info&size=16',
-      'plPriority'      => 2,
 
       'plProvidedAcls'  => parent::generatePlProvidedAcls(static::getAttributesInfo())
     ];
@@ -112,7 +111,7 @@ class bolkData extends simplePlugin
           new BooleanAttribute(
             _('Photo Visible'), _('Should the photo of the user be visible on external tools?'),
             'fdPhotoVisible', FALSE, TRUE
-          ),
+          )
         ],
 	  ],
 	  'avg' => [
@@ -153,7 +152,7 @@ class bolkData extends simplePlugin
 		  new BooleanAttribute(
 			_('Share institution'), _('Does this member allow to internally share where they study'),
 			'fdInstitutionShare', TRUE, TRUE
-		  ),
+		  )
         ],
       ],
     ];
