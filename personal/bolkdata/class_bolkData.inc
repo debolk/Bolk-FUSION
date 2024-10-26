@@ -31,6 +31,8 @@ class bolkData extends simplePlugin
       'plSelfModify'      => TRUE, // Does this plugin have an owner that might be able to edit its entry
       'plObjectType'      => ['user'],
       'plObjectClass'     => ['fdBolkData'],
+      'plFilter'          => '(objectClass=fdBolkData)',
+      'plPriority'        => 3,
 
       // simplePlugin can generate the ACL list for us
       'plProvidedAcls'    => parent::generatePlProvidedAcls(self::getAttributesInfo())
