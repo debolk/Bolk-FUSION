@@ -17,7 +17,7 @@
 
 class bolkData extends simplePlugin
 {
-  var $displayHeader  = TRUE;
+  var $displayHeader  = FALSE;
   var $objectclasses = ["fdBolkData"];
 
   static function plInfo (): array
@@ -25,11 +25,14 @@ class bolkData extends simplePlugin
     return [
       'plShortName'     => _('BolkData'),
       'plDescription'   => _('Bolk member information'),
+      'plFilter'        => '(objectClass=fdBolkData'),
       'plSelfModify'    => TRUE,
+      'plObjectClass'   => ['fdBolkData'],
       'plObjectType'    => ['user'],
 	  'plIcon'          => 'geticon.php?context=applications&icon=user-info&size=48',
       'plSmallIcon'     => 'geticon.php?context=applications&icon=user-info&size=16',
-      'plObjectClass'   => ['fdBolkData'],
+      'plPriority'      => 2,
+
       'plProvidedAcls'  => parent::generatePlProvidedAcls(static::getAttributesInfo())
     ];
   }
