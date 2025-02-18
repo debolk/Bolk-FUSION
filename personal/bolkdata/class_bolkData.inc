@@ -17,9 +17,7 @@
 
 class bolkData extends simplePlugin
 {
-  // We set displayHeader to FALSE, because we don't want a header allowing to activate/deactivate this plugin,
-  // we want it activated on all objects
-  var $displayHeader = FALSE;
+  var $displayHeader = TRUE;
 
   // We need this function that returns some information about the plugin
   static function plInfo (): array
@@ -31,6 +29,7 @@ class bolkData extends simplePlugin
       'plSelfModify'      => TRUE, // Does this plugin have an owner that might be able to edit its entry
       'plObjectType'      => ['user'],
       'plObjectClass'     => array('fdBolkData', 'fdBolkDataAVG'),
+      'plFilter'          => '(&(objectClass=fdBolkData)(objectClass=fdBolkDataAVG))',
       'plIcon'            => 'geticon.php?context=applications&icon=user-info&size=48',
       'plSmallIcon'       => 'geticon.php?context=applications&icon=user-info&size=16',
       'plPriority'        => 3,
