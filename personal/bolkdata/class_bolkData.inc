@@ -31,7 +31,6 @@ class bolkData extends simplePlugin
       'plSelfModify'      => TRUE, // Does this plugin have an owner that might be able to edit its entry
       'plObjectType'      => ['user'],
       'plObjectClass'     => array('fdBolkData', 'fdBolkDataAVG'),
-      'plFilter'          => '(&(objectClass=fdBolkData)(objectClass=fdBolkDataAVG))',
       'plIcon'            => 'geticon.php?context=applications&icon=user-info&size=48',
       'plSmallIcon'       => 'geticon.php?context=applications&icon=user-info&size=16',
       'plPriority'        => 3,
