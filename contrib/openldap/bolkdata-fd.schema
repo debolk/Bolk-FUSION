@@ -98,10 +98,16 @@ attributetype ( 1.3.6.1.4.1.38414.640.1.17 NAME 'fdNoObligations'
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
   SINGLE-VALUE )
 
+attributetype ( 1.3.6.1.4.1.38414.640.1.18 NAME 'fdDoorAccess'
+  DESC 'Is the member allowed to open the door with their pass?'
+  EQUALITY booleanMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+  SINGLE-VALUE )
+
 # Objectclasses
 objectclass (1.3.6.1.4.1.38414.640.2.1 NAME 'fdBolkData' SUP top AUXILIARY
   DESC 'FusionDirectory - User personal tab'
   MUST ( )
   MAY ( fdNickName $ fdPhotoVisible $ fdPronouns $ dateOfBirth $ fdEmergencyPhone $
 		fdProgramme $ fdInstitution $ fdForwardMails $ fdDead $ fdDateOfInauguration $ fdDateOfResignationLetter $
-		fdDateOfResignation $ fdIVA $ fdMemberOf $ fdLabeledURI $ fdNoObligations))
+		fdDateOfResignation $ fdIVA $ fdMemberOf $ fdLabeledURI $ fdNoObligations $ fdDoorAccess ))

@@ -231,3 +231,9 @@ msgstr ""
 #: personal/bolkdata/class_bolkData.inc:155
 msgid "Does this member allow to internally share where they study"
 msgstr ""
+
+msgid "Door Access"
+msgstr ""
+
+msgid "Is the user allowed to use their pass to open the door?"
+msgstr ""

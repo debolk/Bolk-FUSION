@@ -77,11 +77,7 @@ class bolkData extends simplePlugin
 			  new PhoneNumberAttribute(
 				_('Emergency contact number'), _('Phone number of the member\'s emergency contact'),
 				'fdEmergencyPhone', FALSE )
-		  ),
-          new BooleanAttribute(
-            _('Forward mails'), _('Should emails to this member be forwarded to them?'),
-            'fdForwardMails', TRUE, TRUE
-          )
+		  )
 		]
 	  ],
 	  'membership' => [
@@ -116,6 +112,10 @@ class bolkData extends simplePlugin
           new BooleanAttribute(
             _('Photo Visible'), _('Should the photo of the user be visible on external tools?'),
             'fdPhotoVisible', FALSE, TRUE
+          ),
+          new BooleanAttribute(
+            _('Door Access'), _('Is the user allowed to use their pass to open the door?'),
+            'fdDoorAccess', FALSE, FALSE
           )
         ],
 	  ],

@@ -230,3 +230,9 @@ msgstr "Deel onderwijsinstelling"
 msgid "Does this member allow to internally share where they study"
 msgstr "Staat deze Bolker toe om intern te delen waar ze studeren"
 
+msgid "Door Access"
+msgstr "Deurtoegang"
+
+msgid "Is the user allowed to use their pass to open the door?"
+msgstr "Is deze user het toegestaan om de deur met hun pas te openen?"
+
